@@ -1,0 +1,15 @@
+set-option -g default-terminal "screen-256color"
+set-option -ga terminal-features ",*256color*:RGB"
+set-option -sg escape-time 200 
+
+# Resize keybinds
+bind -r j resize-pane -D 5
+bind -r k resize-pane -U 5
+bind -r l resize-pane -R 5
+bind -r h resize-pane -L 5
+
+# Maximize and minimize with z
+bind -r m resize-pane -Z
+
+# Enable mouse 
+set-option -g mouse on
