@@ -1,3 +1,10 @@
 require("kt.core")
-require("kt.lazy")
+
+if (vim.g.vscode) then
+  require("kt.vscode")
+else
+  require("kt.lazy")
+end
+
+
 

@@ -1,0 +1,1 @@
+require("kt.vscode.settings")
